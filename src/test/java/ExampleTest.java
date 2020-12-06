@@ -29,7 +29,7 @@ public class ExampleTest {
 	
 	@Test
 	//gdy wynik wiekszy od rekordu swiata test metody
-	public void ExampleTest2() {
+	public void ExampleTest1() {
 		int result = rp.ResultPoints(10, 20);
 		assertEquals(50,result);
 		
@@ -38,7 +38,7 @@ public class ExampleTest {
 	}
 	@Test
 	//gdy wynik równy rekordowi swiata test metody
-	public void ExampleTest3() {
+	public void ExampleTest2() {
 		int result = rp.ResultPoints(4, 4);
 		assertEquals(100,result);
 //		System.out.println("Test 2"+ result);
@@ -47,7 +47,7 @@ public class ExampleTest {
 	
 	@Test
 	//gdy wynik wiekszy od rekordu swiata test parametrów
-	public void ExampleTest4() {
+	public void ExampleTest3() {
 		
 		rp.wr= 3;
 		rp.result= 4;
@@ -60,7 +60,7 @@ public class ExampleTest {
 	}
 	@Test
 	//gdy wynik mniejszy od rekordu swiata test parametrów
-	public void ExampleTest5() {
+	public void ExampleTest4() {
 		
 		rp.wr= 4;
 		rp.result= 3;
@@ -72,7 +72,7 @@ public class ExampleTest {
 	}
 	@Test
 	//gdy wynik równy rekordowi swiata test parametrów
-	public void ExampleTest6() {
+	public void ExampleTest5() {
 		
 		rp.wr= 4;
 		rp.result= 3;
@@ -83,19 +83,18 @@ public class ExampleTest {
 		
 	}
 	@Test
-public void ExampleTest7() {
+public void ExampleTest6() {
 		//test wartosci null wyniku metdy wymaga wy³aczenia IllegalArgumentException
 		int result = rp.ResultPoints(1, 1);
 		assertNotNull("punkty maja wartosæ null",result );
 //		System.out.println("Test 6"+ result);
 		
 	}
-//	@Test
-//public void ExampleTest8() {
-		//test wartosci null wyniku metdy wymaga wy³aczenia IllegalArgumentException
-//	int result = rp.ResultPoints(0, 0);
-//	assertNull("punkty maja wartosæ null",result );
-//	System.out.println("Test 7"+ result);
+	@Test/public void ExampleTest7() {
+		test wartosci null wyniku metdy wymaga wy³aczenia IllegalArgumentException
+	int result = rp.ResultPoints(0, 0);
+	assertNull("punkty maja wartosæ null",result );
+	//System.out.println("Test 7"+ result);
 	
-//}
+}
 }
