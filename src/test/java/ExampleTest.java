@@ -16,6 +16,7 @@ public class ExampleTest {
 	public void setUp() {
 
 		rp = new Example();
+
 	//	System.out.println("Before");
 	}
 	
@@ -23,6 +24,9 @@ public class ExampleTest {
 	public void tearDown() {
 		
 		rp=null;
+
+
+
 	//	System.out.println("After");
 	}
 
@@ -41,6 +45,8 @@ public class ExampleTest {
 	public void ExampleTest2() {
 		int result = rp.ResultPoints(4, 4);
 		assertEquals(100,result);
+
+
 //		System.out.println("Test 2"+ result);
 		
 	}
@@ -67,6 +73,8 @@ public class ExampleTest {
 		int wr = rp.wr;
 		int results = rp.result;
 		assertTrue("rekord swiata mniejszy od wyniku",wr > results);
+
+
 //		System.out.println("Test 4");
 		
 	}
@@ -79,6 +87,8 @@ public class ExampleTest {
 		int wr = rp.wr;
 		int results = rp.result;
 		assertFalse("rekord swiata ró¿ny od wyniku",wr == results);
+
+
 //		System.out.println("Test 5");
 		
 	}
@@ -90,11 +100,12 @@ public void ExampleTest6() {
 //		System.out.println("Test 6"+ result);
 		
 	}
-	@Test
-public void ExampleTest7() {
-		//test wartosci null wyniku metdy wymaga wy³aczenia IllegalArgumentException
+	@Test/public void ExampleTest7() {
+		test wartosci null wyniku metdy wymaga wy³aczenia IllegalArgumentException
 	int result = rp.ResultPoints(0, 0);
 	assertNull("punkty maja wartosæ null",result );
+
+
 	//System.out.println("Test 7"+ result);
 	
 }
