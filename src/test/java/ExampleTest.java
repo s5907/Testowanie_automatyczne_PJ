@@ -99,4 +99,13 @@ public void ExampleTest6() {
 	//System.out.println("Test 7"+ result);
 	
 }
+
+//@Test
+//	public void ExampleTest8() {
+		//test wartosci null wyniku metdy wymaga wy³aczenia IllegalArgumentException
+	//string car = rp.ResultPoints(0, 0);
+//	assertNull("punkty maja wartosæ null",result );
+	//System.out.println("Test 7"+ result);
+	
+//}
 }

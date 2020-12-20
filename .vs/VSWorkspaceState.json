@@ -4,9 +4,14 @@
     "\\src",
     "\\src\\main",
     "\\src\\main\\java",
-    "\\src\\test",
-    "\\src\\test\\java"
+    "\\target",
+    "\\target\\classes",
+    "\\target\\classes\\zad1",
+    "\\target\\generated-sources",
+    "\\target\\maven-status",
+    "\\target\\test-classes",
+    "\\target\\test-classes\\zad1"
   ],
-  "SelectedNode": "\\src\\test\\java\\ExampleTest.java",
+  "SelectedNode": "\\src\\main\\java\\Example.java",
   "PreviewInSolutionExplorer": false
 }

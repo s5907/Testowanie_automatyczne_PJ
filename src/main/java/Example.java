@@ -4,13 +4,25 @@ import java.util.HashMap;
 
 public class Example {
 	public int result, wr;
+	private String color;
+    private String type;
 	public Object points;
 	HashMap<String, Integer> results = new HashMap<>(); 
 	//metoda przelicza wynik w stosunku do rekodu swiata na dystansie
 	
+
+	public srting AddName (string car){
+
+	//ObjectMapper objectMapper = new ObjectMapper();
+   // car = new Car("yellow");
+   // objectMapper.writeValue(new File("target/car.json"), car);
+	//}
+
 	public int ResultPoints (int result, int wr) {
 		result = Math.abs(result);
 		wr = Math.abs(wr);
+
+		
 	//	Player pla= new Player();
 	//	results.put(player, result);
 		
