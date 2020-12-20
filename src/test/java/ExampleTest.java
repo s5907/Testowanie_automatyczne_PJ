@@ -90,8 +90,9 @@ public void ExampleTest6() {
 //		System.out.println("Test 6"+ result);
 		
 	}
-	@Test/public void ExampleTest7() {
-		test wartosci null wyniku metdy wymaga wy³aczenia IllegalArgumentException
+	@Test
+	public void ExampleTest7() {
+		//test wartosci null wyniku metdy wymaga wy³aczenia IllegalArgumentException
 	int result = rp.ResultPoints(0, 0);
 	assertNull("punkty maja wartosæ null",result );
 	//System.out.println("Test 7"+ result);
