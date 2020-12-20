@@ -90,6 +90,7 @@ public void ExampleTest6() {
 //		System.out.println("Test 6"+ result);
 		
 	}
+	
 	@Test
 	public void ExampleTest7() {
 		//test wartosci null wyniku metdy wymaga wy³aczenia IllegalArgumentException
