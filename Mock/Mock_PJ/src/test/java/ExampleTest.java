@@ -89,7 +89,20 @@ public class ExampleTest {
 		assertEquals(50, ResultPoints);
 	}
 
-	
+	@Test
+	void shouldFindLowestPrice() {
+    String departureAirport = "departure";
+    String destinationAirport = "arrival";
+    LocalDate day = LocalDate.of(2018, 9, 22);
+    AirlineMock mock1 = new AirlineMock();
+    AirlineMock mock2 = new AirlineMock();
+
+    FlightScanner flightScanner = new FlightScanner(mock1, mock2);
+    flightScanner.findCheapestFlight(departureAirport, destinationAirport, day);
+
+    mock1.verifyCalled(departureAirport, destinationAirport, day);
+    mock2.verifyCalled(departureAirport, destinationAirport, day);
+}
 
 	//@Test
 	//gdy wynik wiekszy od rekordu swiata test metody

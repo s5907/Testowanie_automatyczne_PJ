@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="7" failures="0" name="ExampleTest" time="0.765" errors="0" skipped="0">
+<testsuite tests="8" failures="0" name="ExampleTest" time="0.948" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="14.0.2+12-46"/>
@@ -60,11 +60,12 @@
     <property name="sun.stdout.encoding" value="cp852"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="ExampleTest" name="example" time="0.007"/>
-  <testcase classname="ExampleTest" name="example2" time="0.736"/>
-  <testcase classname="ExampleTest" name="example3" time="0.007"/>
-  <testcase classname="ExampleTest" name="example4" time="0.005"/>
-  <testcase classname="ExampleTest" name="example5" time="0.004"/>
-  <testcase classname="ExampleTest" name="example6" time="0.004"/>
-  <testcase classname="ExampleTest" name="example7" time="0.002"/>
+  <testcase classname="ExampleTest" name="example" time="0.008"/>
+  <testcase classname="ExampleTest" name="example2" time="0.924"/>
+  <testcase classname="ExampleTest" name="example3" time="0.008"/>
+  <testcase classname="ExampleTest" name="example4" time="0.002"/>
+  <testcase classname="ExampleTest" name="example5" time="0.002"/>
+  <testcase classname="ExampleTest" name="example6" time="0.002"/>
+  <testcase classname="ExampleTest" name="example7" time="0.001"/>
+  <testcase classname="ExampleTest" name="example9" time="0.001"/>
 </testsuite>
