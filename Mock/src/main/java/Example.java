@@ -13,6 +13,7 @@ public class Example {
 		return d+2;
 	}
 
+
 	public String name(){
 	String imie= "jarek";
 		return imie;

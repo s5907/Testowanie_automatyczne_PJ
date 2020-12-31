@@ -1,17 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src",
     "\\src\\main",
     "\\src\\main\\java",
-    "\\target",
-    "\\target\\classes",
-    "\\target\\classes\\zad1",
-    "\\target\\generated-sources",
-    "\\target\\maven-status",
+    "\\src\\test",
+    "\\src\\test\\java",
     "\\target\\test-classes",
     "\\target\\test-classes\\zad1"
   ],
-  "SelectedNode": "\\src\\main\\java\\Example.java",
   "PreviewInSolutionExplorer": false
 }
